@@ -1,0 +1,57 @@
+/* UserDashboard.css */
+.user-dashboard {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .user-dashboard h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .user-dashboard p {
+    font-size: 18px;
+    color: #666;
+  }
+  .profile-card {
+    background-color: #fff; /* White background */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding around the card */
+    text-align: center; /* Center align text */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin-bottom: 20px; /* Space below the card */
+  }
+  
+  .profile-pic {
+    width: 80px; /* Profile picture width */
+    height: 80px; /* Profile picture height */
+    border-radius: 50%; /* Circular profile picture */
+    margin-bottom: 10px; /* Space below image */
+  }
+  
+  .profile-name {
+    font-size: 1.5em; /* Larger font size for the name */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .profile-email {
+    color: #555; /* Grey color for the email */
+    margin: 10px 0; /* Space above and below email */
+  }
+  
+  .show-button {
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 15px; /* Padding for size */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s; /* Transition for hover effect */
+  }
+  
+  .show-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  

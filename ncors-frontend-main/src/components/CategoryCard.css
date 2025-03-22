@@ -1,0 +1,18 @@
+.category-card {
+    border: 1px solid #ddd;
+    padding: 16px;
+    text-align: center;
+  }
+  
+  .category-card img {
+    width: 100%;
+    height: auto;
+    max-height: 150px;
+    object-fit: cover;
+  }
+  
+  .category-card h3 {
+    margin-top: 12px;
+    font-size: 1.2rem;
+  }
+  

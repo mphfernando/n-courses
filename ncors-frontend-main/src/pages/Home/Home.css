@@ -1,0 +1,82 @@
+.home-container {
+  padding: 20px;
+}
+
+/* Carousel styles */
+.carousel-container {
+  margin-bottom: 40px;
+  max-width: 100vw;
+}
+
+.carousel-container img {
+  width: 100%;          /* Make sure the image stretches across the full width */
+  height: 70vh;         /* Set a relative height to fit most screens */
+  object-fit: contain; 
+}
+
+/* Categories styles */
+.categories-container {
+  text-align: center;
+}
+
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.category-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.category-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.category-card h3 {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+.category-card:hover {
+  transform: scale(1.05);
+}
+
+/* Additional styles for navigation dots */
+.slick-dots {
+  bottom: -30px; /* Adjust position of dots */
+}
+
+.slick-dots li button:before {
+  font-size: 12px;
+  color: #000; /* Color of inactive dots */
+}
+
+.slick-dots li.slick-active button:before {
+  color: #1a73e8; /* Highlight color for active dot */
+}
+
+/* Custom arrow styles */
+.slick-prev, .slick-next {
+  font-size: 24px;
+  background-color: #000; /* Background for arrows */
+  color: #fff;            /* Arrow color */
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.slick-prev {
+  left: 10px;  /* Adjust left arrow position */
+  z-index: 1;  /* Ensure arrow appears above slides */
+}
+
+.slick-next {
+  right: 10px; /* Adjust right arrow position */
+}

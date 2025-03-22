@@ -1,0 +1,26 @@
+.course-info-small {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .course-info-small h1 {
+    font-size: 2rem;
+  }
+  
+  .course-info-small p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .course-info-small button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  

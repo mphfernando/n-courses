@@ -1,0 +1,66 @@
+/* UserDashboard.css */
+.user-dashboard {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .user-dashboard h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .user-dashboard p {
+    font-size: 18px;
+    color: #666;
+  }
+  /* TeacherDashboard.css */
+.courses-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .courses-table th, .courses-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .courses-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+  
+  .add-course-form {
+    margin-top: 20px;
+  }
+  
+  .add-course-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .add-course-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .add-course-form input, .add-course-form textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .add-course-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  .spacer{
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+  .add-course-button:hover {
+    background-color: #45a049;
+  }
+  

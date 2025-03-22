@@ -1,0 +1,29 @@
+/* global.css */
+html, body, #root, .App {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-y: auto;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1 0 auto;
+  overflow-y: auto;
+  padding: 20px;  /* Adjust as needed */
+}
+
+.navbar {
+  flex-shrink: 0;
+}
+
+.footer {
+  flex-shrink: 0;
+}
